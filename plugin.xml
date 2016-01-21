@@ -18,8 +18,8 @@
 		<header-file src="src/ios/Tar.h" />
 		<source-file src="src/ios/Tar.m" />
 
-		<header-file src="lib/ios/NSFileManager+Tar.h" />
-		<source-file src="lib/ios/NSFileManager+Tar.m" />
+		<header-file src="libs/ios/NSFileManager+Tar.h" />
+		<source-file src="libs/ios/NSFileManager+Tar.m" />
 
 	</platform>
 	
