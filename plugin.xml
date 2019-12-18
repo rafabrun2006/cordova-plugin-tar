@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="de.ergovia.cordova.tar" version="0.1">
+	<repo>https://github.com/ergovia-mobile/cordova-plugin-tar.git</repo>
+	<name>Tar</name>
+	<description>Cordova plugin to create and extract tar-archives</description>
+	<js-module src="www/tar.js" name="tar">
+		<clobbers target="tar"/>
+	</js-module>
+	
+	<platform name="ios">
+
+		<config-file target="config.xml" parent="/*">
+           <feature name="Tar">
+           		<param name="ios-package" value="Tar"/>
+           </feature>
+        </config-file>
+
+		<header-file src="src/ios/Tar.h" />
+		<source-file src="src/ios/Tar.m" />
+
+		<header-file src="libs/ios/NSFileManager+Tar.h" />
+		<source-file src="libs/ios/NSFileManager+Tar.m" />
+
+	</platform>
+	
+	<platform name="android">
+
+		<config-file target="res/xml/config.xml" parent="/*">
+           <feature name="Tar">
+           		<param name="android-package" value="de.ergovia.cordova.Tar"/>
+           </feature>
+		</config-file>
+
+		<source-file src="src/android/Tar.java" target-dir="src/de/ergovia/cordova/tar" />
+		<source-file src="libs/android/jtar-1.1.jar" target-dir="libs"/>
+
+	</platform>
+</plugin>
