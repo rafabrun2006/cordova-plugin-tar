@@ -1,32 +1,7 @@
 {
-  "_from": "cordova-plugin-tar",
-  "_id": "cordova-plugin-tar",
-  "_inBundle": false,
-  "_integrity": "sha1-F2yCSOog058c+VnvXmFWrMqWshc=",
-  "_location": "/cordova-plugin-tar",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "cordova-plugin-tar",
-    "name": "cordova-plugin-tar",
-    "escapedName": "cordova-plugin-tar",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_shasum": "176c8248ea20d39f1cf959ef5e6156acca96b217",
-  "_spec": "cordova-plugin-zip",
-  "_where": "/Users/rafael.oliveira/Documents/apps/mobile-edu-publicacoes-ionic",
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/MobileChromeApps/zip/issues"
-  },
-  "bundleDependencies": false,
+  "name": "cordova-plugin-tar",
+  "version": "3.1.0",
+  "description": "Unzips zip files",
   "cordova": {
     "id": "cordova-plugin-untar",
     "platforms": [
@@ -34,25 +9,25 @@
       "ios"
     ]
   },
-  "deprecated": false,
-  "description": "Unzips tar files",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafabrun2006/cordova-plugin-tar.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
   "engines": [
     {
       "name": "cordova",
       "version": ">=3.3.0"
     }
   ],
-  "homepage": "https://github.com/MobileChromeApps/zip",
-  "keywords": [
-    "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
-  ],
+  "author": "",
   "license": "BSD",
-  "name": "cordova-plugin-zip",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rafabrun2006/cordova-plugin-tar.git"
+  "bugs": {
+    "url": "https://github.com/rafabrun2006"
   },
-  "version": "1.0"
+  "homepage": "https://github.com/rafabrun2006/cordova.plugin.git"
 }
