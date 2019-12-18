@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin id="cordova-plugin-tar" version="0.1">
+	<engines>
+	    <engine name="cordova" version=">=3.3.0" />
+	  </engines>
 	<name>Tar</name>
 	<description>Cordova plugin to create and extract tar-archives</description>
-	<js-module src="www/tar.js" name="tar">
+	<js-module src="www/tar.js" name="Tar">
 		<clobbers target="tar"/>
 	</js-module>
 	
