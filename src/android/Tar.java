@@ -1,4 +1,4 @@
-package de.ergovia.cordova.plugin.tar;
+package org.apache.cordova;
 
 import android.net.Uri;
 import android.util.Log;
