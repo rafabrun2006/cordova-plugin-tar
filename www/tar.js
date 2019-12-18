@@ -8,6 +8,6 @@ exports.untar = function(fileName, outputDirectory, callback) {
         callback(0);
     };
 
-    exec(success, fail, 'tar', 'untar', [fileName, outputDirectory]);
+    exec(success, fail, 'Tar', 'untar', [fileName, outputDirectory]);
 
 };
