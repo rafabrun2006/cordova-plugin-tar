@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin id="de.ergovia.cordova.tar" version="0.1">
-	<repo>https://github.com/ergovia-mobile/cordova-plugin-tar.git</repo>
+	<repo>https://github.com/rafabrun2006/cordova-plugin-tar.git</repo>
 	<name>Tar</name>
 	<description>Cordova plugin to create and extract tar-archives</description>
 	<js-module src="www/tar.js" name="tar">
